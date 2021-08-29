@@ -15,7 +15,6 @@ pkgbase = mingw-w64-qtutilities
 	depends = mingw-w64-crt
 	depends = mingw-w64-qt5-base
 	depends = mingw-w64-c++utilities
-	optdepends = qtutilities-doc: API documentation
 	options = !buildflags
 	options = staticlibs
 	options = !strip
