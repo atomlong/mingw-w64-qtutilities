@@ -12,7 +12,6 @@ arch=('any')
 pkgdesc='Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models (mingw-w64)'
 license=('GPL')
 depends=('mingw-w64-crt' 'mingw-w64-qt5-base' 'mingw-w64-c++utilities')
-optdepends=("$_name-doc: API documentation")
 checkdepends=('mingw-w64-wine')
 makedepends=('mingw-w64-gcc' 'mingw-w64-cmake' 'mingw-w64-qt5-tools' 'ninja')
 url="https://github.com/Martchus/${_reponame}"
